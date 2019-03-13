@@ -22,6 +22,8 @@ body{
     
 
 }
+
+
 .container .middle{
     width: 50%;
     background-color: whitesmoke;
@@ -186,4 +188,9 @@ text-align: center;
     font-family: "Sniglet";
     text-align: center;
 
+    }
+
+    footer{
+        position: absolute;
+        bottom: 5px;
     }
