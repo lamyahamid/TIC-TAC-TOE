@@ -2,6 +2,8 @@
 var numX=0;
 var numO=0;
 var gameBoard = {}
+var numberOfxAndO=0;
+var winner=false;
 
 
 var player=0;
@@ -12,6 +14,7 @@ var player=0;
                 gameBoard[event.target.id] = 'X'
                 $(event.target).html("<p>X</p>");
                 player++;
+                numberOfxAndO++;
                 
             }
             else {
@@ -19,6 +22,7 @@ var player=0;
                 
                 $(event.target).html("<p>O</p>");
                 player++; 
+                numberOfxAndO++;
             
             } }
 var one = gameBoard.one;
@@ -41,6 +45,8 @@ if ((one==="X"&&two==="X"&&three==="X")|| (four==="X"&&five==="X"&&six==="X")||(
     ani.classList.add('animated', 'rubberBand','slow')
     numX++;
     $('#result1 p').text(numX)
+    winner=true;
+
 
     
     
@@ -55,9 +61,16 @@ else if ((one==="O"&&two==="O"&&three==="O")|| (four==="O"&&five==="O"&&six==="O
     ani.classList.add('animated', 'rubberBand','slow')
     numO++;
     $('#result2 p').text(numO)
+    winner=true;
 }
-
+if (numberOfxAndO==9 && winner!=true){
+   swal({
+      title: "DRAW",
+    });
+  }
         });
+       
+        
     
 $("#img").on("click", function (event){
     location.reload();
@@ -67,6 +80,8 @@ $("#img").on("click", function (event){
          $("#button").on("click", function (event){
             $('#one').text("")
             gameBoard.one="";
+            numberOfxAndO=0;
+            winner=false;
          });
          $("#button").on("click", function (event){
             $('#two').text("")
