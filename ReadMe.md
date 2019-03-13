@@ -21,4 +21,4 @@ I start with HTML after that i did css, then JavaScript
 
 
 # Installation Instruction
-You can open this URL (<https://lamyahamid.github.io/>) and enjoy play.
+You can open this URL (<https://lamyahamid.github.io/TIC-TAC-TOE/>) and enjoy play.
