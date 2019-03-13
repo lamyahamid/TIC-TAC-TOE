@@ -1,0 +1,58 @@
+body{
+    background-image: url("../images/tic-tac-toe-background-eps10-vector-1447007.jpg");
+    
+}
+h1{
+    font-size: 70px;
+    width: 500px;
+    margin-left: 29.5%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+h2{
+    font-size: 50px;
+    width: 350px;
+    margin-left: 33%; 
+    background-color: whitesmoke;
+    opacity: 0.8; 
+    padding-left: 8px;
+}
+.playAgain{
+    display: flex;
+    justify-content: center;
+}
+.newGame{
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-left: 20px;
+    margin-bottom: 40px
+}
+.playAgain p{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+    opacity: 0.8;
+}
+.newGame p{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+    opacity: 0.8; 
+}
+button{
+    height: 60px;
+    width: 200px;
+    font-size: 30px;
+    background-color:  #a17da5 ;
+    border: 5px whitesmoke solid;
+    margin-left: 40%;
+}
+
+ button a {
+     color: whitesmoke;
+     text-decoration: none
+ }

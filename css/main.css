@@ -1,0 +1,189 @@
+
+.container{
+    display: flex;
+}
+body{
+    background-image: url("../images/tic-tac-toe-background-eps10-vector-1447007.jpg");
+    
+}
+.container .left{
+    width: 25%;
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Sniglet";
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    height: 600px;
+    opacity: 0.8;
+    padding-top: 30px;
+    
+
+}
+.container .middle{
+    width: 50%;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    
+}
+
+
+
+.container .right{
+    width: 25%;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    height: 600px;
+    padding-top: 30px;
+}
+.right h1{
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Sniglet";
+    text-align: center;
+    
+    animation-play-state: slow;
+}
+.left h1{
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Sniglet";
+    text-align: center;
+    
+    animation-play-state: slow;
+}
+
+.boxes{
+    display: flex;
+    flex-flow: wrap;
+    width:600px;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: 50px
+    
+}
+
+
+
+.box p{
+    font-size: 90px;
+    margin-left: 50px;
+    margin-top: 20px
+}
+
+.middle #one{
+    width: 150px;
+    border-right-style: solid;
+    height: 150px;
+    border-bottom-style: solid;
+
+
+}
+
+.middle #two{
+    width: 150px;
+    height: 150px;
+    border-bottom-style: solid;
+}
+.middle #three{
+    width: 150px;
+    height: 150px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+.middle #four{
+    width: 150px;
+    height: 150px;
+    border-bottom-style: solid;
+    
+}
+.middle #five{
+    width: 150px;
+    height: 150px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    
+}
+.middle #six{
+    width: 150px;
+    height: 150px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    
+}
+.middle #seven{
+    width: 150px;
+    height: 150px;
+    border-right-style: solid;
+    
+}
+.middle #eight{
+    width: 150px;
+    height: 150px;
+    
+    
+}
+.middle #nine{
+    width: 150px;
+    height: 150px;
+    border-left-style: solid;
+}
+.start{
+    display: flex;
+    /* width: 70%; */
+    justify-content: center;
+}
+.start h1{
+    margin-top: 30px;
+    font-size: 80px;
+    margin-right: 50px;
+    animation-iteration-count: infinite;
+    animation-play-state: slow;
+    background-color: whitesmoke;
+    opacity: 0.8;
+}
+
+.buttons{
+    display: flex;
+}
+
+.middle button{
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    width:200px;
+    height: 50px;
+    font-size: 25px;
+    background-color:#a17da5
+}
+#result1 p{
+background-color: white;
+border: 5px #a17da5 solid;
+margin: 70px;
+height: 70px;
+margin-top: 100px;
+font-size: 60px;
+font-style: italic;
+font-family: "Sniglet";
+text-align: center;
+
+}
+#result2 p{
+    background-color: white;
+    border: 5px #a17da5 solid;
+    margin: 70px;
+    height: 70px;
+    margin-top: 100px;
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Sniglet";
+    text-align: center;
+
+    }
